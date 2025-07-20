@@ -6,7 +6,9 @@ import hero_image from '../Assets/hero_image.png'
 import cart_icon from '../Assets/cart_icon.png'
 const Hero = () => {
   return (
-    <div className='HERO  flex  justify-between items-center gap-5'>
+    <div className='HERO  flex  justify-between items-center gap-5 '
+    style={{ background: "linear-gradient(180deg, #fde1ff, #e1ffea22 60%)" }}
+    >
         <div className='LEFT  h-100  w-150 gap-2 ml-17 mt-20 p-7 '>
            <h2 className=' text-bold'>NEW ARRIVALS ONLY</h2>
             <div className='flex felx-row gap-1  '>
@@ -22,7 +24,7 @@ const Hero = () => {
             </div>
         </div>
         <div className='RIGHT m-3 mt-2 '>
-            <img  className=" h-140  w-120 bg-gray-300  mr-7 "src={hero_image} alt=''/>
+            <img  className=" h-140  w-120  mr-7 "src={hero_image} alt=''/>
         </div>
 
     </div>

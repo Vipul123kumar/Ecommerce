@@ -11,7 +11,7 @@ const Navbar = () => {
             <p className='text-xl  text-black-500  font-bold'>SHOPPER</p>
            </div>
            <ul className='flex justify-between gap-17 p-9'>
-            <li className='flex flex-col items-center cursor-pointer ' onClick={()=>setMenu("shop")} > <Link to='/'> Shop</Link> {menu=="shop"?<h  className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
+            <li className='flex flex-col items-center cursor-pointer ' onClick={()=>setMenu("shop")} > <Link to='/'> Shop</Link> {menu=="shop"?<hr  className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
             <li className='flex flex-col items-center cursor-pointer' onClick={()=>setMenu("Men")}><Link to="/men">Men</Link> {menu=="Men"?<hr  className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
             <li className='flex flex-col items-center cursor-pointer' onClick={()=>setMenu("Women")}> <Link to="/women"> Women</Link> {menu=="Women"?<hr  className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
             <li className=' flex flex-col items-center cursor-pointer' onClick={()=>setMenu("Kids")}> <Link to="/kids">Kids</Link> {menu==="Kids"?<hr className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
