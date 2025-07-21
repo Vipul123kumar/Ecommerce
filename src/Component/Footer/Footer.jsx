@@ -24,8 +24,8 @@ const Footer = () => {
                           </ul>
                           <div className='flex flex-row  items-center justify-center gap-10 mt-10  mb-10'>
                             <img src={instagram_icon} alt='' className=' p-1 shadow-md bg-gray-100 cursor-pointer  '/>
-                            <img src={pintester_icon} alt='' className=' p-1 shadow-md bg-gray-100 '/>
-                            <img src={whatshapp_icon} alt='' className=' p-1 shadow-md bg-gray-100 '/>
+                            <img src={pintester_icon} alt='' className=' p-1 shadow-md bg-gray-100 cursor-pointer  '/>
+                            <img src={whatshapp_icon} alt='' className=' p-1 shadow-md bg-gray-100 cursor-pointer'/>
                           </div>
                           <div className='flex flex-col items-center justify-center gap-2 '>
                             <hr className='bg-black-200 h-2 w-100'/>
