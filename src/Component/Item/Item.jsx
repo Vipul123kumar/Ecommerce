@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const Item = (props) => {
   return (
     <div className='itransform transition duration-300 hover:scale-105 tem w-55 m-2 p-2 shadow-md '>
-     <Link to={`/product/${props.id}`}>  <img src={props.image} alt=''/></Link>
+     <Link to={`/product/${props.id}`}>  <img onClick={()=>window.scrollTo(0,0)} src={props.image} alt=''/></Link>
       <p className='m-6px 0px'>{props.name}</p>
 
       <div className='flex flex-row gap-5 '>
@@ -15,4 +15,4 @@ const Item = (props) => {
   )
 }
 
-export default Item
+export default Item 

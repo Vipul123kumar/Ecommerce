@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import star_icon from '../Assets/star_icon.png'
 import star_dull_icon from '../Assets/star_dull_icon.png'
+import { ShopContext } from '../../Context/ShopContext'
 const ProductDisplay = (props) => {
     const {product}=props;
     console.log("in the displayh");
+    const {addToCart}=useContext(ShopContext);
 
     
 
@@ -50,7 +52,7 @@ const ProductDisplay = (props) => {
                            <div className='p-1 shadow-md bg-gray-100 cursor-pointer h-14 w-9 flex items-center justify-center text-center'>XL </div>
                             <div className='p-1 shadow-md bg-gray-100 cursor-pointer h-14 w-9 flex items-center justify-center text-center'>XXL </div>
                      </div>
-                     <button className=' flex items-center justify-center p-2 bg-red-300 h-8 w-40  '>ADD TO CART </button>
+                     <button onClick={()=>addToCart(product.id)} className=' flex items-center justify-center p-2 bg-red-300 h-8 w-40 cursor-pointer  ' >ADD TO CART </button>
                 </div>
 
                 <div className='flex flex-col gap-2 p-2 '> 
