@@ -13,7 +13,7 @@ const Navbar = () => {
             <img className='h-8' src={logo} alt=''/>
             <p className='text-xl  text-black-500  font-bold'>SHOPPER</p>
            </div>
-           <img src={nav_dropdown} alt=''/>
+           {/* <img src={nav_dropdown} alt=''/> */}
            <ul className='flex justify-between gap-17 p-9'>
             <li className='flex flex-col items-center cursor-pointer ' onClick={()=>setMenu("shop")} > <Link to='/'> Shop</Link> {menu=="shop"?<hr  className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
             <li className='flex flex-col items-center cursor-pointer' onClick={()=>setMenu("Men")}><Link to="/men">Men</Link> {menu=="Men"?<hr  className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
