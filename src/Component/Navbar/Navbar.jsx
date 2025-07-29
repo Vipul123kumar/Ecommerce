@@ -21,6 +21,7 @@ const Navbar = () => {
             <li className=' flex flex-col items-center cursor-pointer' onClick={()=>setMenu("Kids")}> <Link to="/kids">Kids</Link> {menu==="Kids"?<hr className='w-6 h-[3px] mt-2 bg-red-500 border-0 rounded'/>:<></> }</li>
            </ul>
 
+
            <div className='flex justify-between gap-5 p-5'>
             <Link to="/login"><button className='border-1 m-3 h-9 w-22 rounded-full cursor-pointer active:bg-gray-200 '> Login</button></Link>
             <div className='relative w-fit'>
