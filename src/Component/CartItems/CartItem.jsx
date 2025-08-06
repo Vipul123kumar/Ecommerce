@@ -5,7 +5,7 @@ const CartItem = () => {
     const {cartItems,all_product,removeFromCart,getTotalCartAmount}=useContext(ShopContext);
     console.log("total");
     
-   
+     
   return (
     <div className='flex flex-col gap-6 itmes-center justify-center m-auto   w-220 mt-25'>
         <div className='flex flex-row gap-5items-center justify-between m-2'>
@@ -17,7 +17,7 @@ const CartItem = () => {
                 <p> Remove</p>
         </div>
        <hr className='h-2 w-220'/>
-                 {all_product.map((e)=>
+                 {all_product.map((e)=> 
                 {
                     if(cartItems[e.id]>0)
                     {
