@@ -16,6 +16,7 @@ const Login = () => {
         <div className='gap-2 m-2 p-2 '>
           <input type='checkbox' name='' id='' />
           <label>By continueing i agree to the terms of use & privacy policy.</label>
+          
         </div>
         </div>
      </div>
