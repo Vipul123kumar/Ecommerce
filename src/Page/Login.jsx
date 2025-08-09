@@ -18,7 +18,8 @@ const Login = () => {
           <label>By continueing i agree to the terms of use & privacy policy.</label>
           
         </div>
-        </div>
+        </div> 
+        
      </div>
 
     </div>
