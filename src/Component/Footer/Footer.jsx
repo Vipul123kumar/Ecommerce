@@ -12,7 +12,7 @@ const Footer = () => {
                       <img src={logo} alt='' className='h-15 w-10 '/>
                       <h1 className='text-4xl font-bold '>SHOPPER</h1>
                       </div>
-          
+                
                       <div>
                           <ul className='flex flex-row items-center justify-between gap-5 '>
                               <li>Company</li>
