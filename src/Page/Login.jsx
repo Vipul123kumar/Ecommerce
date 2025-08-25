@@ -14,7 +14,7 @@ const Login = () => {
         <button className='bg-red-300 border-1px rounded h-10 w-85 rounded-md m-auto  mb-1 cursor-pointer hover:bg-red-400 '>Continue</button>
         <p className='m-2 p-2 '>Create an account? <Link to="/signup"> <span className='  text-red-300 cursor-pointer hover:text-red-400'> Click here</span> </Link> </p>
         <div className='gap-2 m-2 p-2 '>
-          
+             
           <input type='checkbox' name='' id='' />
           <label>By continueing i agree to the terms of use & privacy policy.</label>
           
